@@ -1,0 +1,122 @@
+./build_layout.bash 8bc356bb164640f9940c601478ae2a30 MDErgo1 "MDErgo1-Blank-0.kll" "MDErgo1-Blank-1.kll"  2>&1
+Linking C executable kiibohd.elf
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30
++ mkdir -p right
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30
++ mkdir -p left
++ cd right
++ cp ../MDErgo1-Blank-0.kll ../MDErgo1-Blank-1.kll .
++ cd left
++ cp ../MDErgo1-Blank-0.kll ../MDErgo1-Blank-1.kll .
++ cmake /srv/KiiConf/controller -DScanModule=MDErgo1 -DCHIP=mk20dx256vlh7 '-DBaseMap=defaultMap leftHand slave1 rightHand' -DMacroModule=PartialMap -DOutputModule=pjrcUSB -DDebugModule=full '-DDefaultMap=MDErgo1-Blank-0 lcdFuncMap' '-DPartialMaps=MDErgo1-Blank-1 lcdFuncMap'
++ cmake /srv/KiiConf/controller -DScanModule=MDErgo1 -DCHIP=mk20dx256vlh7 '-DBaseMap=defaultMap rightHand slave1 leftHand' -DMacroModule=PartialMap -DOutputModule=pjrcUSB -DDebugModule=full '-DDefaultMap=MDErgo1-Blank-0 lcdFuncMap' '-DPartialMaps=MDErgo1-Blank-1 lcdFuncMap'
+Linking C executable kiibohd.elf
+-- Compiler Family:
+arm
+-- Compiler Selected:
+gcc
+-- Chip Selected:
+mk20dx256vlh7
+-- Chip Family:
+mk20dx
+-- CPU Selected:
+cortex-m4
+-- Compiler Source Files:
+Lib/mk20dx.c;Lib/delay.c
+-- Bootloader Type:
+dfu
+-- Compiler Family:
+arm
+-- Compiler Selected:
+gcc
+-- Chip Selected:
+mk20dx256vlh7
+-- Chip Family:
+mk20dx
+-- CPU Selected:
+cortex-m4
+-- Compiler Source Files:
+Lib/mk20dx.c;Lib/delay.c
+-- Bootloader Type:
+dfu
+-- Detected Scan Module Source Files:
+Scan/ISSILed/led_scan.c;Scan/MatrixARM/matrix_scan.c;Scan/STLcd/lcd_scan.c;Scan/UARTConnect/connect_scan.c;Scan/MDErgo1/scan_loop.c
+-- Detected Macro Module Source Files:
+Macro/PartialMap/macro.c
+-- Detected Scan Module Source Files:
+Scan/ISSILed/led_scan.c;Scan/MatrixARM/matrix_scan.c;Scan/STLcd/lcd_scan.c;Scan/UARTConnect/connect_scan.c;Scan/MDErgo1/scan_loop.c
+-- Detected Macro Module Source Files:
+Macro/PartialMap/macro.c
+-- Detected Output Module Source Files:
+Output/pjrcUSB/output_com.c;Output/pjrcUSB/arm/usb_desc.c;Output/pjrcUSB/arm/usb_dev.c;Output/pjrcUSB/arm/usb_joystick.c;Output/pjrcUSB/arm/usb_keyboard.c;Output/pjrcUSB/arm/usb_mem.c;Output/pjrcUSB/arm/usb_mouse.c;Output/pjrcUSB/arm/usb_serial.c
+-- Detected Output Module Source Files:
+Output/pjrcUSB/output_com.c;Output/pjrcUSB/arm/usb_desc.c;Output/pjrcUSB/arm/usb_dev.c;Output/pjrcUSB/arm/usb_joystick.c;Output/pjrcUSB/arm/usb_keyboard.c;Output/pjrcUSB/arm/usb_mem.c;Output/pjrcUSB/arm/usb_mouse.c;Output/pjrcUSB/arm/usb_serial.c
+-- Detected Debug Module Source Files:
+Debug/cli/cli.c;Debug/led/led.c;Debug/print/print.c
+-- Detected Debug Module Source Files:
+Debug/cli/cli.c;Debug/led/led.c;Debug/print/print.c
+Create and sign dfu bin file:  kiibohd.dfu.bin
+Creating Extended Listing:     kiibohd.lss
+Create and sign dfu bin file:  kiibohd.dfu.bin
+Creating Extended Listing:     kiibohd.lss
+ctags: cannot open tag file : Permission denied
+ctags: cannot open tag file-- Detected Layout Files:
+ : Permission denied
+/srv/KiiConf/controller/Scan/ISSILed/capabilities.kll
+/srv/KiiConf/controller/Scan/MatrixARM/capabilities.kll
+/srv/KiiConf/controller/Scan/STLcd/capabilities.kll
+/srv/KiiConf/controller/Scan/UARTConnect/capabilities.kll
+/srv/KiiConf/controller/Macro/PartialMap/capabilities.kll
+/srv/KiiConf/controller/Output/pjrcUSB/capabilities.kll
+/srv/KiiConf/controller/Scan/MDErgo1/defaultMap.kll
+/srv/KiiConf/controller/Scan/MDErgo1/leftHand.kll
+/srv/KiiConf/controller/Scan/MDErgo1/slave1.kll
+/srv/KiiConf/controller/Scan/MDErgo1/rightHand.kll
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/left/MDErgo1-Blank-0.kll
+/srv/KiiConf/controller/kll/layouts/lcdFuncMap.kll
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/left/MDErgo1-Blank-1.kll
+/srv/KiiConf/controller/kll/layouts/lcdFuncMap.kll
+-- Detected Layout Files:
+/srv/KiiConf/controller/Scan/ISSILed/capabilities.kll
+/srv/KiiConf/controller/Scan/MatrixARM/capabilities.kll
+/srv/KiiConf/controller/Scan/STLcd/capabilities.kll
+/srv/KiiConf/controller/Scan/UARTConnect/capabilities.kll
+/srv/KiiConf/controller/Macro/PartialMap/capabilities.kll
+/srv/KiiConf/controller/Output/pjrcUSB/capabilities.kll
+/srv/KiiConf/controller/Scan/MDErgo1/defaultMap.kll
+/srv/KiiConf/controller/Scan/MDErgo1/rightHand.kll
+/srv/KiiConf/controller/Scan/MDErgo1/slave1.kll
+/srv/KiiConf/controller/Scan/MDErgo1/leftHand.kll
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/right/MDErgo1-Blank-0.kll
+/srv/KiiConf/controller/kll/layouts/lcdFuncMap.kll
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/right/MDErgo1-Blank-1.kll
+/srv/KiiConf/controller/kll/layouts/lcdFuncMap.kll
+-- Configuring done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/right
++ make -j
+-- Generating done
+Creating Symbol Table:         kiibohd.sym
+-- Build files have been written to: /srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30/left
++ make -j
+[ 95%] Built target kiibohd.elf
+Creating Symbol Table:         kiibohd.sym
+Scanning dependencies of target SizeAfter
+[  4%] [  4%] Generating KLL Layout
+[ 95%] Built target kiibohd.elf
+Generating KLL Layout
+[  9%] Scanning dependencies of target SizeAfter
+Chip usage for mk20dx256vlh7
+	[1m SRAM[m: 	[1;32m13%[m 	8904/65536	bytes
+[100%] 	[1mFlash[m: 	[1;32m16%[m 	41444/253952	bytes
+[  9%] Chip usage for mk20dx256vlh7
+Built target SizeAfter
+	[1m SRAM[m: 	[1;32m13%[m 	8916/65536	bytes
++ RETVAL=0
++ set +x
+/srv/KiiConf/tmp/8bc356bb164640f9940c601478ae2a30
+	[1mFlash[m: 	[1;32m16%[m 	41460/253952	bytes
+[100%] Built target SizeAfter
++ RETVAL=0
++ set +x
