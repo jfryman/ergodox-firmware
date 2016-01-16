@@ -1,0 +1,19 @@
+Author = "HaaTa (Jacob Alexander) 2015";
+Base = "Blank";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+KLL = "0.3c";
+Layout = "Blank";
+Name = "MDErgo1";
+Version = "0.1";
+
+U"EQUALS" : U"BACKTICK";
+U"FUNCTION5" : U"QUOTE";
+U"9" : U"MINUS";
+U"0" : U"EQUAL";
+U"MINUS" : U"RBRACE";
+U"RBRACE" : U"LBRACE";
+U"RSHIFT" : U"LGUI";
+U"LEFT" : U"QUOTE";
+U"RGUI" : U"LCTRL";
+
